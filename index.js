@@ -9,6 +9,6 @@ class Circle {
   }
 
   set circumference(circumference){
-    this
+    this.circumference = Math.pi * diameter
   }
 }
