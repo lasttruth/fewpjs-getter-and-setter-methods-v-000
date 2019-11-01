@@ -3,4 +3,8 @@ class Circle {
   constructor(radius) {
     this.radius = radius
   }
+
+  set diameter(diameter){
+    this._diameter = radius * 2;
+  }
 }
