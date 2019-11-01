@@ -5,6 +5,10 @@ class Circle {
   }
 
   set diameter(diameter){
-    this._diameter = radius * 2;
+    this.diameter = radius * 2;
+  }
+
+  set circumference(circumference){
+    this
   }
 }
